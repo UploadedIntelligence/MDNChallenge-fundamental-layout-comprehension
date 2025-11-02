@@ -23,8 +23,15 @@ img {
 }
 
 .grid {
+    display: grid;
+    gap: 20px;
     margin: 0 auto;
     max-width: 980px;
+    grid-template-columns: 3fr 1fr;
+}
+
+h2 {
+    font-size: clamp(1rem, 0.5rem + 2.5vw, 2rem);
 }
 
 nav {
